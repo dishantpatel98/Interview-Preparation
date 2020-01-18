@@ -1,0 +1,10 @@
+1)On what does the sizeof pointer depends?
+-->Size of pointer depends on the compiler wether it is 32bit or 64bit.
+For Example if compiler is 32bit then the compiler can access 2^32 locations.i.e ie it cna store
+the data in 2^32 locations.Now the size of pointer should be such that it should access all of these locations.
+So the size of pointer has to be 32bits.Hence the size of pointer is compiler dependent.
+
+2)What is the meaning of 32/64bit processor?
+-->It means that the data bus is 32/64 bits wide.Hence processor can fetch 32/64 bits in one memory operation
+or one CPU cycles.Also word size is processor dependent.If the processsor is 32 bit the word size is also 32bits.
+32 bit software can run of 64bit machine but viceversa is not true.
